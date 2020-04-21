@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:facefreckle/adminUser:password
+  username: admin
+dashboardUrl: https://example.com
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:facefreckle/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:facefreckle/prow:hmacToken
+segmentWriteKey: vault:facefreckle:segmentWriteKey
